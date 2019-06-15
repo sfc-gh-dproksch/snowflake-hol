@@ -5,7 +5,7 @@ familiar with the Snowflake service and productive quickly.
 
 The topics covered in this HOL are:
 - Introduction to Snowflake
-- [Snowflake User Interface Overview] (UI-Overview.md)
+- [Snowflake User Interface Overview] (./UI-Overview.md)
 - Data Organization
 - Compute Resources
 - Data Processing

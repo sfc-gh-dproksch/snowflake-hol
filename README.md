@@ -8,5 +8,5 @@ The topics covered in this HOL are:
 * [Snowflake User Interface Overview](./UI-Overview.md)
 * [Data Organization](./Data-Organization.md)
 * [Compute Resources](./Compute-Resources.md)
-- Data Processing
+* [Data Processing](./Data-Processing.md)
 - Security

@@ -3,7 +3,7 @@
 Snowflake organizes data into a heirarchy of artifcats.  If you are famiiar with heritage RDBMS platforms, these concepts will be familiar.  The **DATABASE** object is at the top level.  A database contains one or more **SCHEMAS**. With in a schema, **TABLES**, **VIEWS**, **FILE FORMATS**, **STAGES**, and **SEQUENCES** are contained.  
 
 This section of the Hands-On Lab will show how to create a:
-  * [Database][#Creating a Database]
+  * [Database](#Creating a Database)
   * Schema
   * Table
   * View

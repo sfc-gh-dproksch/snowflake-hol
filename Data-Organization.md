@@ -48,7 +48,7 @@ A *Create Table* dialog box is presented: ![alt-text](./images/Create-Table-Dial
   1.  **Name:** The name of the table
   1.  **Schema Name:** The name of the schema.  It is available from the dropdown box.
   1.  **Comment:**  This is an optional meta-data field ![alt-text](./images/Create-Table-Dialogue-Filled.png)
-  1.  **Columns:**  A wizard to assist in the creation of columns ![alt-text](./images/Create-Table-Dialogue-Filled-Columns.png)
+  1.  **Columns:**  A wizard to assist in the creation of columns ![alt-text](./images/Create-Table-Dialogue-Columns.png)
     1.  Enter the name of the column
     1.  Choose the Data Type from the drop down list
     1.  Choose *NULL* or *NOT NULL*

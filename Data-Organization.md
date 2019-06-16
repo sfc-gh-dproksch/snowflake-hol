@@ -12,7 +12,7 @@ This section of the Hands-On Lab will show how to create a:
 
 In order to create these artifacts, navigate to the Databases icon in the Snowflake UI.  ![alt-text](./images/Database-Tab.png)
 
-## Creating a Database [Create-Database]
+## [Create-Database]: Creating a Database 
 Once the Databases page is presented, choose Create ![alt-text](./images/Create-Database.png)
 
 A dialogue box ![alt-text](./images/Create-Database-Dialoge.png) will be presented, and fill out the following information:

@@ -4,11 +4,11 @@ Snowflake organizes data into a heirarchy of artifcats.  If you are famiiar with
 
 This section of the Hands-On Lab will show how to create a:
   * [Database](#cdb)
-  * Schema
-  * Table
-  * View
-  * File Format
-  * Stage
+  * [Schema](#cschema)
+  * [Table](#ctab)
+  * [View](#cview)
+  * [File Format](#cformat)
+  * [Stage](#cstage)
 
 In order to create these artifacts, navigate to the Databases icon in the Snowflake UI.  ![alt-text](./images/Database-Tab.png)
 
@@ -25,7 +25,7 @@ The Databases page is redisplayed ![alt-text](./images/Database-Created.png)
   1.  No permissions have been **GRANT**ed on the database.  Permissions will be discussed in the user security section.
   1.  Click on the database name.  This will drill into the database, and all the sub-artifacts within the database. ![alt-text](./images/Databases-Drill-Down.png)
 
-## Creating a Schema
+## <a name="cschema"></a>Creating a Schema
 ![alt-text](./images/Create-Schema-Steps.png)
   1.  Click on the **Schemas** tab
   2.  Click on **Create**
@@ -39,11 +39,11 @@ A *Create Schema* dialog box is presented: ![alt-text](./images/Create-Schema-Di
 The Schemas page is redisplayed ![alt-text](./images/Schema-Created.png)
   1.  No permissions have been **GRANT**ed on the schema.  Permissions will be discussed in the user security section.
 
-## Creating a Table
+## <a name="ctab"></a>Creating a Table
 ![alt-text](./images/Create-Table.png)
   1.  Click on the **Tables** tab
   2.  Click on **Create**
 
-## Creating a View
-## Creating a File Format
-## Creating a Stage
+## <a name="cview"></a>Creating a View
+## <a name="cformat"></a>Creating a File Format
+## <a name="cstage"></a>Creating a Stage

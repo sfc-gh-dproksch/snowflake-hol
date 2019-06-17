@@ -6,7 +6,7 @@ Data has several forms:
   - Rectangular
   - Semi-Structured
 
-Snowflake can easily ingest data in both tabular and semi-structured formats without the need to pre-process the data for ingestion.  Snowflake natively supports the following semi-structured formats:
+  Snowflake can easily ingest data in both tabular and semi-structured formats without the need to pre-process the data for ingestion.  Snowflake natively supports the following semi-structured formats:
   - JSON
   - XML
   - Avro

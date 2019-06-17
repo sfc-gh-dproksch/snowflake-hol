@@ -50,6 +50,6 @@ Additionally, multi-cluster warehouses support all the same properties and actio
 - Auto-suspending a running warehouse due to inactivity; note that this does not apply to individual clusters, but rather the entire warehouse.
 - Auto-resuming a suspended warehouse when new queries are submitted.
 
+Any warehouse administration is performed from the **Warehouses** tab.![alt-text](./images/warehouses/warehouses-tab.png)
 
-## Creating a Warehouse
 

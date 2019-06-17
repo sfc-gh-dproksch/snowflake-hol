@@ -1,4 +1,4 @@
-## <a name="ctab"></a>Creating a Table
+# <a name="ctab"></a>Creating a Table
 ![alt-text](../images/Create-Table.png)
   1.  Click on the **Tables** tab
   2.  Click on **Create**

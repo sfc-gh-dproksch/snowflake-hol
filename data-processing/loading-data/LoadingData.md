@@ -15,7 +15,12 @@ CREATE OR REPLACE TABLE LOAD_SAMPLE (
   birthdate  date  
 );
 ```
-1.  Navigate to the *Worksheets* tab
+1.  Navigate to the *Worksheets* tab. (Further discussion of how to use the worksheet will occur in the Query section.
 ![alt-text](../../images/dataloading/DataLoading-Worksheet.png)
+
+1.  Configure the current user context
+    1.  Select the HOL_DB database
+    1.  Select the DEMO_SCHEMA schema 
+![alt-text](../../images/dataloading/DataLoading-SQLContext.png)
 
 ## Loading Semi-Structured Data

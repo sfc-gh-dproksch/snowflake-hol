@@ -115,8 +115,8 @@ The *Configure Warehouse* dialogue box will be presented.
 The two configuration parameters which effect the size of the warehouse are **Size** and **Maximum Clusters**.  The **Size** parameters changes the size of the cluster.  See the [Warehouse Sizing](#warehouse_size) table for the sizes and number of nodes in a cluster.  The **Maximum Clusters** parameter either enables or disables MCW for a warehouse.  Setting the value to 1 will disable MCW.  Setting the value to any number greater than 1 will enable MCW, and display the **Minimum Clusters** drop down.
 ![alt-text](./images/warehouses/Warehouse-Resize-2XL.png)
 
-1.  **Show SQL:**  This link will show the SQL used to alter the warehouse.  **NOTE** Almost every aspect of the Snowflake UI will offer to show the SQL.  This is a great opportunity to learn the commands and helps understand how to interact with Snowflake from the various tools and utilities that are part of the Snowflake ecosystem. ![alt-text](../images/warehouses/Warehouse-Resize-ShowSQL.png)
+1.  **Show SQL:**  This link will show the SQL used to alter the warehouse.  **NOTE** Almost every aspect of the Snowflake UI will offer to show the SQL.  This is a great opportunity to learn the commands and helps understand how to interact with Snowflake from the various tools and utilities that are part of the Snowflake ecosystem. ![alt-text](./images/warehouses/Warehouse-Resize-ShowSQL.png)
   1.  **Finish:**  Submit the request to have Snowflake alter the requested warehouse.
 
-The Warehouses page is redisplayed ![alt-text](../images/warehouses/Warehouse-Resized.png)
+The Warehouses page is redisplayed ![alt-text](./images/warehouses/Warehouse-Resized.png)
 

@@ -12,5 +12,5 @@ A *Create View* dialog box is presented: ![alt-text](../images/Create-View-Dialo
   1.  **Finish:**  Submit the request to have Snowflake create the requested view.
 
 The Views page is redisplayed ![alt-text](../images/View-Created.png)
-  1.  No permissions have been **GRANT**ed on the table.  Permissions will be discussed in the user security section.
+**NOTE:** No permissions have been **GRANT**ed on the table.  Permissions will be discussed in the user security section.
 

@@ -83,7 +83,8 @@ The Warehouses page is redisplayed ![alt-text](./images/warehouses/Warehouse-Cre
 ### Multi-Cluster Warehouse
 
 The process for creating a Multi-Cluster warehouse is the same as a [single instance warehouse](#single_instance) with one exception:  The values for **Maximum Clusters** and **Minimum Clusters** are different.  For example, the cluster may have a **Maximum Clusters** value of 7 and a **Minimum Clusters** value of 1.  This states that there will always be a minimum of 1 cluster to process incoming requests.  As the workload increases, Snowflake will automatically create additional clusters to handle the increased workload.  As the workload is satisfied, Snowflake will reap the additional clusters, back down to the defined **Minimum Clusters** value.
-
+![alt-text](./images/warehouses/Create-Warehouse-MCW-DialogueBox-Filled.png)
+![alt-text](./images/warehouses/Create-Warehouse-MCW-ShowSQL.png)
 
 ## Warehouse Maintenance
 

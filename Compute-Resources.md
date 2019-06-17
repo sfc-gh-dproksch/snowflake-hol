@@ -6,7 +6,7 @@ A virtual warehouse, often referred to simply as a “warehouse”, is a cluster
 - Performing DML operations, such as:
   - Updating rows in tables (DELETE , INSERT , UPDATE).
   - Loading data into tables (COPY INTO <table>).
-  - Unloading data from tables (COPY INTO <location>).
+  - Unloading data from tables (COPY INTO <location>).  
 
   
 A warehouse is defined by its size, as well as the other properties that can be set to help control and automate warehouse activity.

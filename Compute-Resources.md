@@ -55,6 +55,8 @@ Any warehouse administration is performed from the **Warehouses** tab.![alt-text
 
 ## Warehouse Creation
 
+The minimum authorization level for manipulating warehouses is *SYSADMIN*. If the creation of the warehouse fails, verify the roles that have been assigned to your account.  The command [SHOW ROLES](https://docs.snowflake.net/manuals/sql-reference/sql/show-roles.html) is useful for listing all the roles for which you have access privileges across your entire account, including the system-defined roles and any custom roles that have been created.
+
 ### Single Instance Warehouse
 
 ![alt-text](./images/warehouses/Create-Warehouses.png)
@@ -72,6 +74,10 @@ The *Create Warehouse* dialogue box is displayed.  ![alt-text](./images/warehous
 1.  **Comment:**  This is an optional meta-data field
 ![alt-text](./images/warehouses/Create-Warehouse-Single-Dialogue-Filled.png)
 1.  **Show SQL:**  This link will show the SQL used to create the warehouse.  **NOTE** Almost every aspect of the Snowflake UI will offer to show the SQL.  This is a great opportunity to learn the commands and helps understand how to interact with Snowflake from the various tools and utilities that are part of the Snowflake ecosystem. ![alt-text](../images/Create-Warehouse-Single-Dialogue-Filled-ShowSQL.png)
+1.  **Finish:**  Submit the request to have Snowflake create the requested warehouse.
+
+The Warehouses page is redisplayed ![alt-text](../images/warehouses/Warehouse-Created.png)
+**NOTE:** No permissions have been **GRANT**ed on the table.  Permissions will be discussed in the user security section.
 
 ### Multi-Cluster Warehouse
 

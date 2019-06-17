@@ -11,3 +11,4 @@ The Databases page is redisplayed ![alt-text](../images/Database-Created.png)
   1.  No permissions have been **GRANT**ed on the database.  Permissions will be discussed in the user security section.
   1.  Click on the database name.  This will drill into the database, and all the sub-artifacts within the database. ![alt-text](../images/Databases-Drill-Down.png)
 
+[Return to Data Organization](../Data-Organization.md)

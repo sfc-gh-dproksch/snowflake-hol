@@ -12,6 +12,7 @@ A warehouse is defined by its size, as well as the other properties that can be 
 
 Warehouses can be started and stopped at any time. They can also be resized at any time, even while running, to accommodate the need for more or less compute resources, based on the type of operations being performed by the warehouse.
 
+<a name="warehouse_size"></a>
 A Warehouse is sized from X-Small to 4X-Large.
 
 Warehouse Size | Cluster Size 
@@ -56,9 +57,13 @@ Any warehouse administration is performed from the **Warehouses** tab.![alt-text
 
 ### Single Instance Warehouse
 
+![alt-text](./images/warehouses/Create-Warehouses.png)
 1.  Select the *Warehouses* tab
 2.  Select the *Create* link
-![alt-text](./images/warehouses/Create-Warehouses.png)
+
+The *Create Warehouse* dialogue box is displayed.  ![alt-text](./images/warehouses/Create-Warehouse-Single-Dialogue.png)
+1.  **Name:** The name of the warehouse
+2.  **Size:** The size of the warehouse.  See the [Warehouse Sizing](#warehouse_size) table for the sizes and number of nodes in a cluster.
 
 ### Multi-Cluster Warehouse
 

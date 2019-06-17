@@ -52,4 +52,14 @@ Additionally, multi-cluster warehouses support all the same properties and actio
 
 Any warehouse administration is performed from the **Warehouses** tab.![alt-text](./images/warehouses/warehouses-tab.png)
 
+## Warehouse Creation
 
+### Single Instance Warehouse
+
+### Multi-Cluster Warehouse
+
+## Warehouse Maintenance
+
+### Scale Up
+
+### Scale Down

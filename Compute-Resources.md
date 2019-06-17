@@ -63,7 +63,14 @@ Any warehouse administration is performed from the **Warehouses** tab.![alt-text
 
 The *Create Warehouse* dialogue box is displayed.  ![alt-text](./images/warehouses/Create-Warehouse-Single-Dialogue.png)
 1.  **Name:** The name of the warehouse
-2.  **Size:** The size of the warehouse.  See the [Warehouse Sizing](#warehouse_size) table for the sizes and number of nodes in a cluster.
+1.  **Size:** The size of the warehouse.  See the [Warehouse Sizing](#warehouse_size) table for the sizes and number of nodes in a cluster.
+1.  **Maximum Clusters:** For a single instance cluster, this is set to 1
+1.  **Minimum Clusters:** For a single instance cluster, this option will be removed from the UI when the *maximum cluster* size is set to 1.
+1.  **Scaling Policy:** Best practices are for this to remain at *Standard*
+1.  **Auto Suspend:** Inactivity time after which the warehouse will be automatically suspended.  The minimum amount of time available through the UI is 5 minutes.  When warehouses are created via the SQL command, the minimum value is 60 seconds.
+1.  **Auto Resume:** Check-box which indicates if a suspended warehouse should be auto-restarted upon the first connection.  If this box is not checked, the warehouse will have to be manually started.
+1.  **Comment:**  This is an optional meta-data field
+![alt-text](./images/warehouses/Create-Warehouse-Single-Dialogue-Filled.png)
 
 ### Multi-Cluster Warehouse
 

@@ -24,3 +24,17 @@ X-Large          | 16
 2X-Large          | 32
 3X-Large          | 64
 4X-Large          | 128
+
+## Warehouse Auto-Suspension and Auto-Resumption 
+
+A warehouse can be set to automatically resume or suspend, based on activity:
+
+- By default, auto-suspend is enabled. Snowflake automatically suspends the warehouse if it is inactive for the specified period of time.
+- By default, auto-resume is enabled. Snowflake automatically resumes the warehouse when any statement that requires a warehouse is submitted and the warehouse is the current warehouse for the session.
+
+These properties can be used to simplify and automate your monitoring and usage of warehouses to match your workload. Auto-suspend ensures that you do not leave a warehouse running (and consuming credits) when there are no incoming queries. Similarly, auto-resume ensures that the warehouse starts up again as soon as it is needed.
+
+
+
+## Creating a Warehouse
+

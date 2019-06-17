@@ -34,6 +34,21 @@ A warehouse can be set to automatically resume or suspend, based on activity:
 
 These properties can be used to simplify and automate your monitoring and usage of warehouses to match your workload. Auto-suspend ensures that you do not leave a warehouse running (and consuming credits) when there are no incoming queries. Similarly, auto-resume ensures that the warehouse starts up again as soon as it is needed.
 
+## Multi-Cluster Warehouse
+
+A virtual warehouse consist of a single cluster of servers that determines the total resources available to the warehouse for executing queries. As queries are submitted to a warehouse, the warehouse allocates resources to each query and begins executing the queries. If sufficient resources are not available to execute all the queries submitted to the warehouse, Snowflake queues the additional queries until the necessary resources become available.
+
+With multi-cluster warehouses, Snowflake supports allocating, either statically or dynamically, a larger pool of resources to each warehouse. A multi-cluster warehouse is defined by specifying the following properties:
+
+- Maximum number of server clusters, greater than 1 (up to 10).
+- Minimum number of server clusters, equal to or less than the maximum (up to 10).
+
+Additionally, multi-cluster warehouses support all the same properties and actions as single-cluster warehouses, including:
+
+- Specifying a warehouse size.
+- Resizing a warehouse at any time.
+- Auto-suspending a running warehouse due to inactivity; note that this does not apply to individual clusters, but rather the entire warehouse.
+- Auto-resuming a suspended warehouse when new queries are submitted.
 
 
 ## Creating a Warehouse

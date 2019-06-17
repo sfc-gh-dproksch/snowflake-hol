@@ -3,7 +3,7 @@
   1.  Click on the **Stages** tab
   2.  Click on **Create**
 
-A *Choose Storage Location* dialog box is presented: ![alt-text](../images/Create-Stage-Dialogue.png)
+A *Choose Storage Location* dialog box is presented: ![alt-text](../images/Create-Stage-Dialogue-Location.png)
 There are three options to choose from:
   -  Snowflake Managed:  Internal Snowflake managed storage.  This storage is only accessable via GET/PUT commands and COPY INTO <table|location> statements.
   -  AWS S3 Bucket:  Customer managed object storage 

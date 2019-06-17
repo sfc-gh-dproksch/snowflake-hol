@@ -6,7 +6,7 @@ This section of the Hands-On Lab will show how to create a:
   * [Database](#cdb)
   * [Schema](#cschema)
   * [Table](#ctab)
-  * [View](./CreateView.md)
+  * [View](./Data-Organization/CreateView.md)
   * [File Format](#cformat)
   * [Stage](#cstage)
 

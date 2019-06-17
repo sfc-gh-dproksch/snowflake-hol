@@ -88,7 +88,8 @@ The process for creating a Multi-Cluster warehouse is the same as a [single inst
 
 The Warehouses page is redisplayed ![alt-text](./images/warehouses/Warehouse-MCW-Created.png)
 **NOTE:** No permissions have been **GRANT**ed on the table.  Permissions will be discussed in the user security section
-## Warehouse Maintenance
+
+## Dynamiclly Resizing Warehouses
 
 A warehouse can be resized up or down at any time, including while it is running and processing statements.  Resizing a warehouse to a larger size is useful when the operations being performed by the warehouse will benefit from more compute resources, including:
 
@@ -101,6 +102,21 @@ Resizing a running warehouse adds or removes servers in each cluster in the ware
 - Servers are removed from a warehouse only when the servers are no longer being used to execute any current statements.
 Resizing a warehouse doesn’t have any impact on statements that are currently being executed by the warehouse. When resizing to a larger size, the new servers are used only to execute statements that are already in the warehouse queue, as well as all future statements submitted to the warehouse.
 
-### Scale Up
+### Scaling Up and Down
+![alt-text](./images/warehouses/Warehouse-Resize-Up-Steps.png)
+The process of resizing a warehouse up is:
+1.  Select the *Warehouses* tab
+1.  Select the warehouse to be dynamically resized
+1.  Select the *Configure* tab
 
-### Scale Down
+The *Configure Warehouse* dialogue box will be presented.
+![alt-text](./images/warehouses/Warehouse-Resize-DialogBox.png)
+
+The two configuration parameters which effect the size of the warehouse are **Size** and **Maximum Clusters**.  The **Size** parameters changes the size of the cluster.  See the [Warehouse Sizing](#warehouse_size) table for the sizes and number of nodes in a cluster.  The **Maximum Clusters** parameter either enables or disables MCW for a warehouse.  Setting the value to 1 will disable MCW.  Setting the value to any number greater than 1 will enable MCW, and display the **Minimum Clusters** drop down.
+![alt-text](./images/warehouses/Warehouse-Resize-2XL.png)
+
+1.  **Show SQL:**  This link will show the SQL used to alter the warehouse.  **NOTE** Almost every aspect of the Snowflake UI will offer to show the SQL.  This is a great opportunity to learn the commands and helps understand how to interact with Snowflake from the various tools and utilities that are part of the Snowflake ecosystem. ![alt-text](../images/warehouses/Warehouse-Resize-ShowSQL.png)
+  1.  **Finish:**  Submit the request to have Snowflake alter the requested warehouse.
+
+The Warehouses page is redisplayed ![alt-text](../images/warehouses/Warehouse-Resized.png)
+

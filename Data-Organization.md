@@ -5,7 +5,7 @@ Snowflake organizes data into a heirarchy of artifcats.  If you are famiiar with
 This section of the Hands-On Lab will show how to create a:
   * [Database](#cdb)
   * [Schema](#cschema)
-  * [Table](#ctab)
+  * [Table](./Data-Organization/CreateTable.md)
   * [View](./Data-Organization/CreateView.md)
   * [File Format](#cformat)
   * [Stage](#cstage)
@@ -39,25 +39,6 @@ A *Create Schema* dialog box is presented: ![alt-text](./images/Create-Schema-Di
 The Schemas page is redisplayed ![alt-text](./images/Schema-Created.png)
   1.  No permissions have been **GRANT**ed on the schema.  Permissions will be discussed in the user security section.
 
-## <a name="ctab"></a>Creating a Table
-![alt-text](./images/Create-Table.png)
-  1.  Click on the **Tables** tab
-  2.  Click on **Create**
-
-A *Create Table* dialog box is presented: ![alt-text](./images/Create-Table-Dialogue.png)
-  1.  **Name:** The name of the table
-  1.  **Schema Name:** The name of the schema.  It is available from the dropdown box.
-  1.  **Comment:**  This is an optional meta-data field ![alt-text](./images/Create-Table-Dialogue-Filled.png)
-  1.  **Columns:**  A wizard to assist in the creation of columns ![alt-text](./images/Create-Table-Dialogue-Columns.png)
-      1.  Enter the name of the column 
-      1.  Choose the Data Type from the drop down list
-      1.  Choose *NULL* or *NOT NULL*
-      1.  Choose a *DEFAULT* value, if any
-  1.  **Show SQL:**  This link will show the SQL used to create the schema.  **NOTE** Almost every aspect of the Snowflake UI will offer to show the SQL.  This is a great opportunity to learn the commands and helps understand how to interact with Snowflake from the various tools and utilities that are part of the Snowflake ecosystem. ![alt-text](./images/Create-Table-ShowSQL.png)
-  1.  **Finish:**  Submit the request to have Snowflake create the requested table.
-
-The Tables page is redisplayed ![alt-text](./images/Table-Created.png)
-  1.  No permissions have been **GRANT**ed on the table.  Permissions will be discussed in the user security section.
 
 ## <a name="cformat"></a>Creating a File Format
 ## <a name="cstage"></a>Creating a Stage

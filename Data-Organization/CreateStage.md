@@ -25,3 +25,4 @@ A *Create Stage* dialog box is presented: ![alt-text](../images/Create-Stage-Dia
 The Stages page is redisplayed ![alt-text](../images/Stage-Created.png)
 **NOTE:** No permissions have been **GRANT**ed on the table.  Permissions will be discussed in the user security section.
 
+[Return to Data Organization](../Data-Organization.md)

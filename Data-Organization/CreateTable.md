@@ -18,3 +18,4 @@ A *Create Table* dialog box is presented: ![alt-text](../images/Create-Table-Dia
 The Tables page is redisplayed ![alt-text](../images/Table-Created.png)
 **NOTE:** No permissions have been **GRANT**ed on the table.  Permissions will be discussed in the user security section.
 
+[Return to Data Organization](../Data-Organization.md)

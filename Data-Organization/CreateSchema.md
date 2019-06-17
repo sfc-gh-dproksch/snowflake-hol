@@ -12,3 +12,4 @@ A *Create Schema* dialog box is presented: ![alt-text](../images/Create-Schema-D
 The Schemas page is redisplayed ![alt-text](../images/Schema-Created.png)
 **NOTE:** No permissions have been **GRANT**ed on the schema.  Permissions will be discussed in the user security section.
 
+[Return to Data Organization](../Data-Organization.md)

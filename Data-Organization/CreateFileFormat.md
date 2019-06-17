@@ -22,3 +22,5 @@ A *Create File Format* dialog box is presented: ![alt-text](../images/Create-Fil
 The File Formats page is redisplayed ![alt-text](../images/FileFormat-Created.png)
 **NOTE:** No permissions have been **GRANT**ed on the table.  Permissions will be discussed in the user security section.
 
+[Return to Data Organization](../Data-Organization.md)
+

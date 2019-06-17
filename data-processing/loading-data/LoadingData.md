@@ -15,5 +15,7 @@ CREATE OR REPLACE TABLE LOAD_SAMPLE (
   birthdate  date  
 );
 ```
+1.  Navigate to the *Worksheets* tab
+![alt-text](../images/dataloading/DataLoading-Worksheet.png)
 
 ## Loading Semi-Structured Data

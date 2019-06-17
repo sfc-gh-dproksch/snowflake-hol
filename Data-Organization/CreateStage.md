@@ -8,6 +8,7 @@ There are three options to choose from:
   -  Snowflake Managed:  Internal Snowflake managed storage.  This storage is only accessable via GET/PUT commands and COPY INTO <table|location> statements.
   -  AWS S3 Bucket:  Customer managed object storage 
   -  Microsoft Azure Blob:  Customer managed object storage 
+
 **NOTE:** For this example, Internal Snowflake managed storage will be used
   1.  Choose Snowflake Managed
   1.  Choose _Next_

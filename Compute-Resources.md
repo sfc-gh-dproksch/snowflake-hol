@@ -73,7 +73,7 @@ The *Create Warehouse* dialogue box is displayed.  ![alt-text](./images/warehous
 1.  **Auto Resume:** Check-box which indicates if a suspended warehouse should be auto-restarted upon the first connection.  If this box is not checked, the warehouse will have to be manually started.
 1.  **Comment:**  This is an optional meta-data field
 ![alt-text](./images/warehouses/Create-Warehouse-Single-Dialogue-Filled.png)
-1.  **Show SQL:**  This link will show the SQL used to create the warehouse.  **NOTE** Almost every aspect of the Snowflake UI will offer to show the SQL.  This is a great opportunity to learn the commands and helps understand how to interact with Snowflake from the various tools and utilities that are part of the Snowflake ecosystem. ![alt-text](../images/Create-Warehouse-Single-Dialogue-Filled-ShowSQL.png)
+1.  **Show SQL:**  This link will show the SQL used to create the warehouse.  **NOTE** Almost every aspect of the Snowflake UI will offer to show the SQL.  This is a great opportunity to learn the commands and helps understand how to interact with Snowflake from the various tools and utilities that are part of the Snowflake ecosystem. ![alt-text](../images/warehouses/Create-Warehouse-Single-Dialogue-Filled-ShowSQL.png)
 1.  **Finish:**  Submit the request to have Snowflake create the requested warehouse.
 
 The Warehouses page is redisplayed ![alt-text](../images/warehouses/Warehouse-Created.png)

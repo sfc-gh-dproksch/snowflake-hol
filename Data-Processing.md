@@ -2,7 +2,8 @@
 
 Getting business value from an organization's data requires the ability to:
 - [Load Data](./data-processing/loading-data/LoadingData.MD)
-Data has several forms:
+
+  Data has several forms:
   - Rectangular
   - Semi-Structured
 

@@ -57,7 +57,7 @@ Any warehouse administration is performed from the **Warehouses** tab.![alt-text
 ### Single Instance Warehouse
 1.  Select the *Warehouses* tab
 2.  Select the *Create* link
-![alt-text](../images/warehouses/Create-Warehouses.png)
+![alt-text](./images/warehouses/Create-Warehouses.png)
 
 ### Multi-Cluster Warehouse
 

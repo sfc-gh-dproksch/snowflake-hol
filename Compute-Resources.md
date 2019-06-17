@@ -57,6 +57,7 @@ Any warehouse administration is performed from the **Warehouses** tab.![alt-text
 
 The minimum authorization level for manipulating warehouses is *SYSADMIN*. If the creation of the warehouse fails, verify the roles that have been assigned to your account.  The command [SHOW ROLES](https://docs.snowflake.net/manuals/sql-reference/sql/show-roles.html) is useful for listing all the roles for which you have access privileges across your entire account, including the system-defined roles and any custom roles that have been created.
 
+<a name="single_instance"></a>
 ### Single Instance Warehouse
 
 ![alt-text](./images/warehouses/Create-Warehouses.png)
@@ -80,6 +81,9 @@ The Warehouses page is redisplayed ![alt-text](./images/warehouses/Warehouse-Cre
 **NOTE:** No permissions have been **GRANT**ed on the table.  Permissions will be discussed in the user security section
 
 ### Multi-Cluster Warehouse
+
+The process for creating a Multi-Cluster warehouse is the same as a [single instance warehouse](#single_instance) with one exception:  The values for **Maximum Clusters** and **Minimum Clusters** are different.  For example, the cluster may have a **Maximum Clusters** value of 7 and a **Minimum Clusters** value of 1.  This states that there will always be a minimum of 1 cluster to process incoming requests.  As the workload increases, Snowflake will automatically create additional clusters to handle the increased workload.  As the workload is satisfied, Snowflake will reap the additional clusters, back down to the defined **Minimum Clusters** value.
+
 
 ## Warehouse Maintenance
 

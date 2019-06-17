@@ -86,6 +86,8 @@ The process for creating a Multi-Cluster warehouse is the same as a [single inst
 ![alt-text](./images/warehouses/Create-Warehouse-MCW-DialogueBox-Filled.png)
 ![alt-text](./images/warehouses/Create-Warehouse-MCW-ShowSQL.png)
 
+The Warehouses page is redisplayed ![alt-text](./images/warehouses/Warehouse-MCW-Created.png)
+**NOTE:** No permissions have been **GRANT**ed on the table.  Permissions will be discussed in the user security section
 ## Warehouse Maintenance
 
 ### Scale Up

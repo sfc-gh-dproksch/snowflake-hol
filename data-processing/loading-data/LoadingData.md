@@ -1,5 +1,8 @@
 # Snowflake Data Loading
 
+Snowflake handles loading [structured](#rectangle) and [semi-structured](#semi) data without the need for pre-processing or shredding.
+ 
+<a name="rectangle"></a>
 ## Loading Rectangular Data
 
 Snowflake has the ability to ingest data at very high speeds, both in batch mode and in near real-time.  This portion of the workshop is focusing on batch mode data ingestion.
@@ -58,4 +61,5 @@ CREATE OR REPLACE TABLE LOAD_SAMPLE (
 
 ![alt-text](../../images/dataloading/DataLoading-Wizard-Loaded.png)
 
+<a name="semi"></a>
 ## Loading Semi-Structured Data

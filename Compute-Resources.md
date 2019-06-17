@@ -13,6 +13,7 @@ A warehouse is defined by its size, as well as the other properties that can be 
 Warehouses can be started and stopped at any time. They can also be resized at any time, even while running, to accommodate the need for more or less compute resources, based on the type of operations being performed by the warehouse.
 
 A Warehouse is sized from X-Small to 4X-Large.
+
 Warehouse Size | Cluster Size 
 -------------- | ------------
 X-Small        | 1

@@ -90,6 +90,17 @@ The Warehouses page is redisplayed ![alt-text](./images/warehouses/Warehouse-MCW
 **NOTE:** No permissions have been **GRANT**ed on the table.  Permissions will be discussed in the user security section
 ## Warehouse Maintenance
 
+A warehouse can be resized up or down at any time, including while it is running and processing statements.  Resizing a warehouse to a larger size is useful when the operations being performed by the warehouse will benefit from more compute resources, including:
+
+- Improving the performance of large, complex queries against large data sets.
+- Improving performance while loading and unloading significant amounts of data.
+
+Resizing a running warehouse adds or removes servers in each cluster in the warehouse. All the usage and credit rules associated with starting or suspending a warehouse apply to resizing a started warehouse, such as:
+
+- Servers added to a warehouse start using credits when they are provisioned; however, the additional servers don’t start executing statements until they are all provisioned, unless some of the servers fail to provision.
+- Servers are removed from a warehouse only when the servers are no longer being used to execute any current statements.
+Resizing a warehouse doesn’t have any impact on statements that are currently being executed by the warehouse. When resizing to a larger size, the new servers are used only to execute statements that are already in the warehouse queue, as well as all future statements submitted to the warehouse.
+
 ### Scale Up
 
 ### Scale Down

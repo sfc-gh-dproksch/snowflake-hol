@@ -19,7 +19,7 @@ A *Create Stage* dialog box is presented: ![alt-text](../images/Create-Stage-Dia
   1.  **Schema Name:** The name of the schema.  It is available from the dropdown box.
   1.  **Comment:**  This is an optional meta-data field 
 ![alt-text](../images/Create-Stage-Dialogue-Filled.png)
-  1.  **Show SQL:**  This link will show the SQL used to create the view.  **NOTE** Almost every aspect of the Snowflake UI will offer to show the SQL.  This is a great opportunity to learn the commands and helps understand how to interact with Snowflake from the various tools and utilities that are part of the Snowflake ecosystem. ![alt-text](../images/Create-Stage-ShowSQL.png)
+  1.  **Show SQL:**  This link will show the SQL used to create the view.  **NOTE** Almost every aspect of the Snowflake UI will offer to show the SQL.  This is a great opportunity to learn the commands and helps understand how to interact with Snowflake from the various tools and utilities that are part of the Snowflake ecosystem. ![alt-text](../images/Create-Stage-Dialogue-Filled-ShowSQL.png)
   1.  **Finish:**  Submit the request to have Snowflake create the requested view.
 
 The Stages page is redisplayed ![alt-text](../images/Stage-Created.png)

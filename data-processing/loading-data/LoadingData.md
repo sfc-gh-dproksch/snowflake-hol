@@ -16,6 +16,6 @@ CREATE OR REPLACE TABLE LOAD_SAMPLE (
 );
 ```
 1.  Navigate to the *Worksheets* tab
-![alt-text](../images/dataloading/DataLoading-Worksheet.png)
+![alt-text](../../images/dataloading/DataLoading-Worksheet.png)
 
 ## Loading Semi-Structured Data

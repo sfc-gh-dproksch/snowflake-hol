@@ -24,7 +24,7 @@ CREATE OR REPLACE TABLE LOAD_SAMPLE (
     1.  Select the HOL_DB database
     1.  Select the DEMO_SCHEMA schema 
 ![alt-text](../../images/dataloading/DataLoading-SQLContext.png)
-![alt-text](../../images/dataloading/DataLoading-SQLContext-Filled.png)
+![alt-text](../../images/dataloading/DataLoading-SQLContext-FIlled.png)
 
 1.  Copy the [sample DDL](#sample_ddl) and paste into the worksheet
 ![alt-text](../../images/dataloading/DataLoading-DDL-Coppied.png)

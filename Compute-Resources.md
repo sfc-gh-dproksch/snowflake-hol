@@ -18,3 +18,9 @@ Warehouse Size | Cluster Size
 -------------- | ------------
 X-Small        | 1
 Small          | 2
+Medium          | 4
+Large          | 8
+X-Large          | 16
+2X-Large          | 32
+3X-Large          | 64
+4X-Large          | 128

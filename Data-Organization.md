@@ -8,9 +8,6 @@ This section of the Hands-On Lab will show how to create a:
   * [Table](./Data-Organization/CreateTable.md)
   * [View](./Data-Organization/CreateView.md)
   * [File Format](./Data-Organization/CreateFileFormat.md)
-  * [Stage](#cstage)
+  * [Stage](./Data-Organization/CreateStage.md)
 
 In order to create these artifacts, start by navigating to the Databases icon in the Snowflake UI.  ![alt-text](./images/Database-Tab.png)
-
-## <a name="cformat"></a>Creating a File Format
-## <a name="cstage"></a>Creating a Stage

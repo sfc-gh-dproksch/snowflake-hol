@@ -33,3 +33,18 @@ The workshop will focus on running SQL from the Web UI.
     1.  SQL - Opens a dialogue box with the SQL that was executed
     1.  The duration of the query execution
 ![alt-text](../../images/query/Query-Execution.png)
+
+1.  Examine the details of the query execution.
+    1.  Click on *Query ID*
+    1.  Click on the hyperlink of the Query ID
+![alt-text](../../images/query/Query-Execution-History.png)
+
+1.  The detals of the query are presented in the left frame.
+![alt-text](../../images/query/Query-Details.png)
+
+1.  Select **Profile** to view the query profile
+![alt-text](../../images/query/Query-Select-Profile.png)
+
+
+ 
+

@@ -32,6 +32,7 @@ The workshop will focus on how to convert an existing table into JSON, and how t
 
     SELECT * FROM CUSTOMER LIMIT 22;
     ```
+
 1.  Copy the SQL and place it in the worksheet
 ```
 USE DATABASE HOL_DB;

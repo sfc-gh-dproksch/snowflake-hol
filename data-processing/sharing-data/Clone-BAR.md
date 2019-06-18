@@ -21,8 +21,8 @@ Copy the SQL into a Worksheet, set the proper context, and Run each statement in
     DESCRIBE TABLE CUSTOMER;
 ```
 **Note:**  UNDROP is available for:
-    - TABLE
-    - SCHEMA
-    - DATABASE
+- TABLE
+- SCHEMA
+- DATABASE
 
 

@@ -12,6 +12,7 @@ Copy the SQL into a Worksheet, set the proper context, and Run each statement in
 ```
 ## BAR
 
+### UNDROP Objects
 Copy the SQL into a Worksheet, set the proper context, and Run each statement individually, exploring the results
 ```
     DESCRIBE TABLE CUSTOMER;
@@ -25,4 +26,14 @@ Copy the SQL into a Worksheet, set the proper context, and Run each statement in
 - SCHEMA
 - DATABASE
 
-
+### Recover from Data Corruption
+Copy the SQL into a Worksheet, set the proper context, and Run each statement individually, exploring the results
+```
+    ALTER TABLE CUSTOMER SET V = NULL;
+    SELECT * FROM CUSTOMER LIMIT 22;
+    CREATE OR REPLACE TABLE CUSTOMER_CLONE 
+        CLONE CUSTOMER BEFORE (STATEMENT => ''); -- get queryID of ALTER
+    SELECT * FROM CUSTOMER_CLONE LIMIT 22;
+    ALTER TABLE CUSTOMER_CLONE SWAP WITH CUSTOMER;
+    SELECT * FROM CUSTOMER_CLONE LIMIT 22;
+```

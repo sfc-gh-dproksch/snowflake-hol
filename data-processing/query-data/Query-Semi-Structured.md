@@ -48,7 +48,7 @@ The workshop will focus on how to convert an existing table into JSON, and how t
 
 
 
-1.  Copy the SQL, place it in the worksheet, and Run the SQL
+1.  Copy the SQL, place it in the worksheet
     ```
     USE DATABASE HOL_DB;
     USE SCHEMA DEMO_SCHEMA;
@@ -85,3 +85,10 @@ The workshop will focus on how to convert an existing table into JSON, and how t
         c_customer_id
     limit 22;
     ```
+
+1.  Run the SQL
+    **Note:** Make sure the *All Queries* checkbox is checked
+    ![alt-text](../../images/query/Query-JSON-Run-All.png)
+
+1.  Review the results
+    ![alt-text](../../images/query/Query-JSON-Joined.png)

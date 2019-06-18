@@ -96,4 +96,28 @@ COMMENT = 'Demonstration JSON File Format';
 1. Copy and Run the [sample JSON command](#json_file_format), pasting it in the worksheet
 ![alt-text](../../images/dataloading/DataLoading-JSON-CreateFileFormat.png)
 
-1.  
+1.  Copy and Run the [sample table](#sample_json_ddl), pasting it in the worksheet
+![alt-text](../../images/dataloading/DataLoading-JSON-CreateTable.png)
+
+1.  Navigate to the *Databases* page
+![alt-text](../../images/dataloading/DataLoading-Databases.png)
+
+1.  Select the *HOL_DB* database
+![alt-text](../../images/dataloading/DataLoading-DatabaseSelected.png)
+
+1.  Select the *LOAD_JSON_SAMPLE* table
+![alt-text](../../images/dataloading/DataLoading-JSON-TableSelected.png)
+
+1.  Choose the *Load Tables* option
+![alt-text](../../images/dataloading/DataLoading-JSON-TableLoad.png)
+
+1.  The data loading wizard will appear.  Choose the warehouse which will process the ingestion request.  Choose *Next*.
+![alt-text](../../images/dataloading/DataLoading-Wizard-Warehouse.png)
+  
+1.  Select where the source file(s) are located.  Choose *Next*.
+![alt-text](../../images/dataloading/DataLoading-JSON-Wizard-Files.png)
+
+1.  Select the correct file format.  Choose **Load**.
+![alt-text](../../images/dataloading/DataLoading-JSON-Wizard-FileFormat.png)
+
+![alt-text](../../images/dataloading/DataLoading-JSON-Wizard-Loaded.png)

@@ -4,7 +4,8 @@ The Snowflake UI is useful for loading data where the files are less than 50MB. 
 
 1.  Connect to Snowflake using [SnowSQL](https://docs.snowflake.net/manuals/user-guide/snowsql.html).
 
-1.  Execute the following script: ```
+1.  Execute the following script: 
+```
 #!/bin/bash
 
 snowsql -u hol_user --prompt << EOF

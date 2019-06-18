@@ -52,3 +52,6 @@ The history for every query run can be found by choosing the **History** tab
 ![alt-text](../../images/query/Query-History-Tab.png)
 
 A listing of all the history the user is authorized to view is presented.  Clicking on the *Query ID* navigates the user to the query details and profile page, as described [above](#query_details).
+
+## [Query Semi-Structured Data](./Query-Semi-Structured.md)
+

@@ -75,7 +75,7 @@ CREATE OR REPLACE TABLE LOAD_JSON_SAMPLE (
 ```
 
 <a name="json_file_format"></a>
-1.  Command to create a JSON File Format
+*  Command to create a JSON File Format
 ```
 CREATE OR REPLACD FILE FORMAT HOL_DB.DEMO_SCHEMA.DEMO_JSON_FILE_FORMAT 
 TYPE = 'JSON' COMPRESSION = 'AUTO' ENABLE_OCTAL = FALSE 

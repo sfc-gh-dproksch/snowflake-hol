@@ -39,12 +39,16 @@ The workshop will focus on running SQL from the Web UI.
     1.  Click on the hyperlink of the Query ID
 ![alt-text](../../images/query/Query-Execution-History.png)
 
+<a name="query_details"></a>
 1.  The detals of the query are presented in the left frame.
 ![alt-text](../../images/query/Query-Details.png)
 
 1.  Select **Profile** to view the query profile
 ![alt-text](../../images/query/Query-Select-Profile.png)
 
+## Query History
 
- 
+The history for every query run can be found by choosing the **History** tab
+![alt-text](../../images/query/Query-History-Tab.png)
 
+A listing of all the history the user is authorized to view is presented.  Clicking on the *Query ID* navigates the user to the query details and profile page, as described [above](#query_details).

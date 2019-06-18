@@ -1,7 +1,10 @@
 # Snowflake Data Loading
 
-Snowflake handles loading [structured](#rectangle) and [semi-structured](#semi) data without the need for pre-processing or shredding.
+Snowflake handles loading [structured](#rectangle) and [semi-structured](#semi) data without the need for pre-processing or shredding.  Snowflake provides several ways to ingest data:
+-  Via the [Web UI](#web-ui)
+-  Via the [CLI](#put-and-copy) or a programming language
  
+<a name="web-ui"></a>
 <a name="rectangle"></a>
 ## Loading Rectangular Data
 
@@ -121,3 +124,8 @@ COMMENT = 'Demonstration JSON File Format';
 ![alt-text](../../images/dataloading/DataLoading-JSON-Wizard-FileFormat.png)
 
 ![alt-text](../../images/dataloading/DataLoading-JSON-Wizard-Loaded.png)
+Click *OK* to return to the table details page.
+
+<a name="put-and-copy"></a>
+## [Using PUT and COPY](./Load-Put-Copy.md)
+

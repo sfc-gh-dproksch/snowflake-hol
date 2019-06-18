@@ -16,3 +16,4 @@ Getting business value from an organization's data requires the ability to:
 - [Extrude Data](./data-processing/loading-data/ExtrudingData.md)
 - [Query Data](./data-processing/query-data/Query.md)
 - [Share Data](./data-processing/sharing-data/SharingData.md)
+- [Clone|BAR](./data-processing/sharing-data/Clone-BAR.md)

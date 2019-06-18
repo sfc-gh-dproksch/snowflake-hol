@@ -15,7 +15,7 @@ The workshop will focus on running SQL from the Web UI.
 1.  Navigate to the *Worksheets* tab
 ![alt-text](../../images/query/Query-Worksheets-tab.png)
 
-1.  Copy [sample query](./data-processing/query-data/queries/query00.sql) and past into worksheet. 
+1.  Copy [sample query](./queries/query00.sql) and past into worksheet. 
 ![alt-text](../../images/query/Query-CopyQuery.png)
 
 1.  Set the proper user context

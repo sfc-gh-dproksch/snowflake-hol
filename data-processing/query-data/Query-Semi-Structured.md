@@ -16,7 +16,7 @@ The workshop will focus on how to convert an existing table into JSON, and how t
 
 1.  Copy the SQL and place it in the worksheet
 
-**Note:** 65M rows will be used.
+    **Note:** 65M rows will be used.
     ```
     USE DATABASE HOL_DB;
     USE SCHEMA DEMO_SCHEMA;

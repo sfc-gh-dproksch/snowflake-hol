@@ -1,16 +1,18 @@
 ```
 #!/bin/bash
+
 snowsql -u hol_user --prompt << EOF
 use role demo_role;
 use warehouse demo_warehouse;
 use database hol_db;
+use schema demo_schema;
 
-put file:///tmp/json_0_0_0.json @demo_state/;
-copy into load_json_sample
-   from @demo_state/
-   file_format = ( type = JSON );
 
-select * from load_json_sample limit 22;
+copy into @demo_state/load_csv
+   from load_sample
+   file_format = ( type = CSV );
+
+ls @demo_state;
 
 EOF
 ```

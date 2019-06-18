@@ -63,3 +63,37 @@ CREATE OR REPLACE TABLE LOAD_SAMPLE (
 
 <a name="semi"></a>
 ## Loading Semi-Structured Data
+
+### Ingest Data
+1.  Obtain the [sample data](./data/samp.json.gz)
+1.  Command to create sample table DDL:
+<a name="sample_json_ddl"></a>
+```
+CREATE OR REPLACE TABLE LOAD_JSON_SAMPLE (
+  col1 variant
+);
+```
+
+<a name="json_file_format></a>
+1.  Command to create a JSON File Format
+```
+CREATE OR REPLACD FILE FORMAT HOL_DB.DEMO_SCHEMA.DEMO_JSON_FILE_FORMAT 
+TYPE = 'JSON' COMPRESSION = 'AUTO' ENABLE_OCTAL = FALSE 
+ALLOW_DUPLICATE = FALSE STRIP_OUTER_ARRAY = TRUE 
+STRIP_NULL_VALUES = FALSE 
+IGNORE_UTF8_ERRORS = FALSE 
+COMMENT = 'Demonstration JSON File Format';
+```
+1.  Navigate to the *Worksheets* tab. (Further discussion of how to use the worksheet will occur in the Query section.
+![alt-text](../../images/dataloading/DataLoading-Worksheet.png)
+
+1.  Configure the current user context
+    1.  Select the HOL_DB database
+    1.  Select the DEMO_SCHEMA schema 
+![alt-text](../../images/dataloading/DataLoading-SQLContext.png)
+![alt-text](../../images/dataloading/DataLoading-SQLContext-FIlled.png)
+
+1. Copy and Run the [sample JSON command](#json_file_format), pasting it in the worksheet
+![alt-text](../../images/dataloading/DataLoading-JSON-CreateFileFormat.png)
+
+1.  

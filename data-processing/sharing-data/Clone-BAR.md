@@ -29,7 +29,7 @@ Copy the SQL into a Worksheet, set the proper context, and Run each statement in
 ### Recover from Data Corruption
 Copy the SQL into a Worksheet, set the proper context, and Run each statement individually, exploring the results
 ```
-    ALTER TABLE CUSTOMER SET V = NULL;
+    UPDATE CUSTOMER SET V = NULL;
     SELECT * FROM CUSTOMER LIMIT 22;
     CREATE OR REPLACE TABLE CUSTOMER_CLONE 
         CLONE CUSTOMER BEFORE (STATEMENT => ''); -- get queryID of ALTER

@@ -19,4 +19,20 @@ In addition, because no data is copied or exchanged, Secure Data Sharing setup i
 
 - On the consumer side, a read-only database is created from the share. Access to this database is configurable using the same, standard role-based access control that Snowflake provides for all objects in the system.
 
+## Reader Account
+
+Data sharing is only supported between Snowflake accounts. As a data provider, you might wish to share data with a consumer who does not already have a Snowflake account and/or is not ready to become a licensed Snowflake customer.
+
+To facilitate sharing data with these consumers, Snowflake supports providers creating reader accounts. Reader accounts (formerly known as “read-only accounts”) provide a quick, easy, and cost-effective way to share data without requiring the consumer to become a Snowflake customer.
+
+Each reader account belongs to the provider account that created it. Similar to standard consumer accounts, the provider account uses shares to share databases with reader accounts; however, a reader account can only consume data from the provider account that created it.
+
+Users in a reader account can query data that has been shared with it, but cannot perform any of the DML tasks that are allowed in a full account (data loading, insert, update, etc.).
+
+
+
+## Data Consumer
+
+## Data Producer
+
 [Return to Data Processing](../Data-Processing.md)

@@ -92,3 +92,6 @@ The workshop will focus on how to convert an existing table into JSON, and how t
 
 1.  Review the results
     ![alt-text](../../images/query/Query-JSON-Joined.png)
+
+
+[Return to Data Processing](../../Data-Processing.md)

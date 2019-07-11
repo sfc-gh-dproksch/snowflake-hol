@@ -120,3 +120,4 @@ The two configuration parameters which effect the size of the warehouse are **Si
 
 The Warehouses page is redisplayed ![alt-text](./images/warehouses/Warehouse-Resized.png)
 
+[Return to Index](./README.md)

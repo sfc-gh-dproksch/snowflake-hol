@@ -20,3 +20,5 @@ After the user logs into the URL provided by Snowflake, the following page is pr
 
 
 **NOTE** Any UI function has a corresponding SQL command.  
+
+[Return to Index](./README.md)

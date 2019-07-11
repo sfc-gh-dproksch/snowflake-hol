@@ -32,7 +32,7 @@ CREATE OR REPLACE TABLE LOAD_SAMPLE (
 ![alt-text](../../images/dataloading/DataLoading-SQLContext.png)
 ![alt-text](../../images/dataloading/DataLoading-SQLContext-FIlled.png)
 
-1.  Copy the [sample DDL](#sample_ddl) and paste into the worksheet
+1.  Copy the [sample DDL](#sample_ddl) from the link or above and paste into the worksheet
 ![alt-text](../../images/dataloading/DataLoading-DDL-Coppied.png)
 
 1.  *Run* the DDL by pressing the *Run* button.
@@ -129,3 +129,4 @@ Click *OK* to return to the table details page.
 <a name="put-and-copy"></a>
 ## [Using PUT and COPY](./Load-Put-Copy.md)
 
+[Return to Data Processing](../../Data-Processing.md)

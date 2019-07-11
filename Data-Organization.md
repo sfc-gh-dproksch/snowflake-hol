@@ -11,3 +11,5 @@ This section of the Hands-On Lab will show how to create a:
   * [Stage](./Data-Organization/CreateStage.md)
 
 In order to create these artifacts, start by navigating to the Databases icon in the Snowflake UI.  ![alt-text](./images/Database-Tab.png)
+
+[Return to Index](./README.md)

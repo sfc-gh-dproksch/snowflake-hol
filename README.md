@@ -9,4 +9,4 @@ The topics covered in this HOL are:
 * [Data Organization](./Data-Organization.md)
 * [Compute Resources](./Compute-Resources.md)
 * [Data Processing](./Data-Processing.md)
-* [Data Science + Data Engineering](./User-Security.md)
+* [Data Science + Data Engineering](./Data-Science.md)
